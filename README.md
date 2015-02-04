@@ -42,7 +42,7 @@ pages: {
 
 All keys held in the `zotero` object can be automatically injected into the `head` html using a function that the plugin injects. If using coffeekup, this function can be called during compile time as follows:
 
-`text @func.getZoteroMetaData(@document)`
+`text @func.getZoteroTags(@document)`
 
 The output of the above function will be:
 
